@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Orders;
+namespace App\Modules\Orders\Controllers;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 
 class OrderController extends Controller
 {
-    //
+    public function index() { /* list orders */ }
+    public function show($id) { /* show order */ }
 }

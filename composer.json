@@ -1,11 +1,13 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "laravel/novamart",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "NovaMart modular e-commerce system built on Laravel.",
     "keywords": [
         "laravel",
-        "framework"
+        "framework",
+        "ecommerce",
+        "novamart"
     ],
     "license": "MIT",
     "require": {
@@ -26,6 +28,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
+            "App\\Modules\\": "app/Modules/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
